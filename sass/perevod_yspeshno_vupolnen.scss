@@ -1,0 +1,75 @@
+.bek-histori{
+	position: absolute;
+	top:176px;
+	left: 30%;
+}
+.container-trans{
+	max-width: 635px;
+	margin: 0 auto;
+}
+.balans{
+	 margin-top: 300px;
+	 text-align: center;
+	h2{
+		text-align: center;
+		color: #000000;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 40px;
+		line-height: 49px;
+		margin-bottom: 62px;
+		span{
+			color: #42C364;
+		}
+	}
+	.bal_ok{
+		margin-bottom: 20px;
+		color: #474948;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+	}
+	.summa{
+		color: #9EA9AB;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+		margin-bottom: 8px;
+	}
+	.many{
+		color: #000000;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		margin-bottom: 46px;
+	}
+	.pay_good{
+		color: #42C364;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.spisanie{
+		color: #474948;
+		font-weight: 500;
+        font-size: 15px;
+	}
+	.sms{
+		color: #474948;
+		font-weight: 500;
+        font-size: 15px;
+        margin-top: 62px;
+        margin-bottom: 60px;
+	}
+	.next{
+		background: #0077FF;
+		border-radius: 10px;
+		padding: 10px 24px;
+		color: #FFFFFF;
+		font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 60px;
+	}
+
+}

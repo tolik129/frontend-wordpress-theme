@@ -1,0 +1,136 @@
+.histori-perevodov{
+	margin-top: 194px;
+	h3{
+		color: #000000;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 40px;
+		line-height: 49px;
+		text-align: center;
+	}
+	.wraper_name{
+		display: flex;
+		margin-top: 50px;
+		margin-left: 60px;
+		margin-bottom: 50px;
+		img{
+           margin-right: 24px;
+		}
+		.item{
+			.name{
+				font-style: normal;
+				font-weight: 500;
+				font-size: 28px;
+				line-height: 34px;
+				letter-spacing: -0.04px;
+				color: #000000;
+			}
+			.bank{
+				font-style: normal;
+				font-weight: 500;
+				font-size: 15px;
+				line-height: 18px;
+				letter-spacing: -0.04px;
+				color: #9EA9AB;
+			}
+		}
+	}
+	.wraper_convert{
+		display: flex;
+		justify-content: space-around;
+		.item{
+			font-style: normal;
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 24px;
+			letter-spacing: -0.04px;
+			color: #000000;
+		}
+	}
+
+	.ok_transfer{
+		font-style: normal;
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 18px;
+			letter-spacing: -0.04px;
+			color: #27BB4E;
+			padding-bottom: 49px;
+			border-bottom: 1px solid #E1E1E1;
+			margin-top: 33px;
+			padding-left: 60px;
+	}
+
+	.povtor{
+		font-style: normal;
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 18px;
+			letter-spacing: -0.04px;
+			color: #0066FF;
+			padding-bottom: 49px;
+			border-bottom: 1px solid #E1E1E1;
+			margin-top: 33px;
+			padding-left: 60px;
+	}
+
+	.deteils{
+		padding-bottom: 49px;
+			border-bottom: 1px solid #E1E1E1;
+			margin-top: 33px;
+			padding-left: 60px;
+			display: flex;
+			.item{
+				.data{
+					font-style: normal;
+					font-weight: 500;
+					font-size: 15px;
+					line-height: 18px;
+					text-align: center;
+					letter-spacing: -0.04px;
+					color: #9EA9AB;
+					text-align: left;
+					margin-right: 55px;
+					margin-bottom: 8px;
+				}
+				.rezult{
+					font-style: normal;
+					font-weight: 500;
+					font-size: 20px;
+					line-height: 24px;
+					letter-spacing: -0.04px;
+					color: #000000;
+				}
+			}
+	}
+
+	.deteils-2{
+		padding-bottom: 49px;
+			
+			margin-top: 33px;
+			padding-left: 60px;
+			display: flex;
+			.item{
+				.data{
+					font-style: normal;
+					font-weight: 500;
+					font-size: 15px;
+					line-height: 18px;
+					text-align: center;
+					letter-spacing: -0.04px;
+					color: #9EA9AB;
+					text-align: left;
+					margin-right: 55px;
+					margin-bottom: 8px;
+				}
+				.rezult{
+					font-style: normal;
+					font-weight: 500;
+					font-size: 20px;
+					line-height: 24px;
+					letter-spacing: -0.04px;
+					color: #000000;
+				}
+			}
+	}
+}

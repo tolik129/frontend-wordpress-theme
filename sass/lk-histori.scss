@@ -1,0 +1,138 @@
+header{
+	padding-top: 19px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #E1E1E1;
+  
+  	.item{
+     
+       	ul{
+       		display: flex;
+       		list-style: none;
+       		li{
+       			padding-right: 15px;
+       			padding-left: 15px;
+       			a{
+       				font-family: 'Montserrat';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 20px;
+					line-height: 24px;
+					color: #000000;
+					&:hover{
+						text-decoration: none;
+						
+						color: #0066FF;
+					}
+					img{
+						margin-right: 10px;
+					}
+
+       			}
+       		}
+       	}
+      
+  	}
+  
+}
+
+.balans{
+	.wraper{
+		    display: flex;
+            justify-content: end;
+		.item{
+			p{
+				font-style: normal;
+				font-weight: 500;
+				font-size: 15px;
+				line-height: 18px;
+				letter-spacing: -0.04px;
+				color: #9EA9AB;
+				span{
+					font-style: normal;
+					font-weight: 500;
+					font-size: 20px;
+					line-height: 24px;
+					letter-spacing: -0.04px;
+					color: #000000;
+				}
+			}
+		}
+	}
+	
+}
+
+.container-2{
+	width: 835px;
+	margin: 0 auto;
+}
+.bek-histori{
+	position: absolute;
+	top:176px;
+	left: 30%;
+
+}
+
+
+.histori{
+	margin-top: 194px;
+
+	h3{
+		color: #000000;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 40px;
+		line-height: 49px;
+		text-align: center;
+	}
+	.mouns{
+		color: #000000;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 18px;
+		border-bottom: 1px solid #E1E1E1;
+		margin-top: 50px;
+		margin-bottom: 60px;
+	}
+	.wraper{
+		display: flex;
+		justify-content: space-between;
+		
+		margin-bottom: 30px;
+		.item{
+			.wraper_name{
+				display: flex;
+				.item{
+					img{
+                       margin-right: 15px;
+					}
+					.name{
+						font-style: normal;
+						font-weight: 500;
+						font-size: 28px;
+						line-height: 34px;
+						letter-spacing: -0.04px;
+						color: #000000;
+					}
+					.bank{
+						font-style: normal;
+						font-weight: 500;
+						font-size: 15px;
+						line-height: 18px;
+						letter-spacing: -0.04px;
+						color: #9EA9AB;
+					}
+					
+				}
+			}
+			.many{
+						font-style: normal;
+						font-weight: 500;
+						font-size: 20px;
+						line-height: 24px;
+						letter-spacing: -0.04px;
+						color: #000000;
+					}
+		}
+	}
+}

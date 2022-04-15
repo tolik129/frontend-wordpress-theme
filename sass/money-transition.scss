@@ -1,0 +1,120 @@
+.bek-histori{
+	position: absolute;
+	top:176px;
+	left: 30%;
+}
+.container-trans{
+	max-width: 635px;
+	margin: 0 auto;
+}
+.transition{
+	margin-top: 300px;
+	h2{
+		text-align: center;
+		color: #000000;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 40px;
+		line-height: 49px;
+		margin-bottom: 141px;
+	}
+
+	.bg-card{
+		background: #FFFFFF;
+		border: 1px solid #E4E4E4;
+		box-sizing: border-box;
+		border-radius: 30px;
+		width: 100%;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-top: 28px;
+		padding-bottom: 26px;
+		margin-bottom: 67px;
+		.pass{
+			align-items: center;
+			border-bottom: 1px solid #E4E4E4;
+			margin-bottom: 40px;
+			display: flex;
+			padding-bottom: 20px;
+			img{
+				margin-right: 17px;
+			}
+			.pass-2{
+
+				span{
+					color: #9EA9AB;
+					font-style: normal;
+					font-weight: 500;
+					font-size: 15px;
+					line-height: 18px;
+				}
+				
+				h4{
+					font-style: normal;
+					font-weight: 500;
+					font-size: 20px;
+					line-height: 24px;
+					color: #474948;
+					
+				}
+			}
+		}
+		.bank-taruf{
+			display: flex;
+			justify-content: space-between;
+			.item{
+				.txt{
+					color: #9EA9AB;
+					font-style: normal;
+					font-weight: 500;
+					font-size: 16px;
+					line-height: 20px;
+					margin-bottom: 25px;
+				}
+				.txt-2{
+					color: #9EA9AB;
+					font-style: normal;
+					font-weight: 500;
+					font-size: 16px;
+					line-height: 20px;
+					margin-bottom: 25px;
+					text-align: right;
+				}
+
+				.vubor{
+					color: #FFFFFF;
+					font-style: normal;
+					font-weight: 500;
+					font-size: 16px;
+					line-height: 20px;
+					background: #0077FF;
+					border-radius: 10px;
+					padding: 2px 24px;
+				}
+			}
+		}
+	}
+    
+    .dop-uslugi{
+    	padding-top: 143px;
+       border-top:  1px solid #E1E1E1;
+       text-align: center;
+       padding-bottom: 100px;
+    	h3{
+          margin-bottom: 57px;
+          color: #000000;
+          font-style: normal;
+			font-weight: 500;
+			font-size: 32px;
+			line-height: 39px;
+    	}
+    	.deteils{
+			color: #474948;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 20px;
+    	}
+    }
+
+}

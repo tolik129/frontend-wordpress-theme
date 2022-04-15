@@ -1,0 +1,450 @@
+
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>WizeSafe личный кабинет</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel='stylesheet'   href='css/main.min.css' media='all' />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body >
+
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="item">
+				<a href=""><img src="img/logo.svg" alt=""></a>
+			</div>
+			<div class="item">
+				<ul>
+						<li><a href="#"><img src="img/per.svg" alt="">переводы</a></li>
+						<li><a href="#"><img src="img/zap.svg" alt="">запросы денег</a></li>
+						<li><a href="#"><img src="img/prof.svg" alt="">профиль</a></li>
+						<li><a href="#"><img src="img/history.svg" alt="">История</a></li>
+					</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="balans">
+	<div class="container">
+		<div class="wraper">
+			<div class="item">
+				<p>Баланс: <span>00.00</span></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="bek">
+	<a href=""><img src="img/bek.svg" alt=""></a>
+</div>
+<div class="lk">
+	<div class="container">
+		<div class="wrapper">
+		    <div class="tabs">
+		    	
+		        <span class="tab">Персональная информация</span>
+		        <span class="tab">Лимиты</span>
+		        <span class="tab">Уведомления</span>
+		        <span class="tab">Бонусы</span>    
+		        <span class="tab">Настройки</span>    
+		        <span class="tab">Документы</span>        
+		    </div>
+		    <div class="tab_content">
+		       
+		        <div class="tab_item">
+		        		<h3>Персональная информация</h3>
+		        	     <div class="wraper">
+		        		<div class="item">
+		        			<div class="name">Имя и Фамилия:</div>
+		        			<div class="name-2">Иванов Иван</div>
+
+		        			<div class="name">Дата рождения:</div>
+		        			<div class="name-2">20 марта 1980</div>
+
+		        			<div class="name">Номер телефона:</div>
+		        			<div class="name-2">+7 (958) 123-22-33</div>
+
+		        			<div class="name">Email:</div>
+		        			<div class="name-2">abc@unovi.com</div>
+
+		        			<div class="name">Адрес:</div>
+		        			<div class="name-2">Ивовая улица, дом 8, кор. 3, <br>
+		        			кв. 45, ПГТ "Напрасный Труд", <br>
+		        		    Московская область, 182777,<br>
+		        		     Россия</div>
+
+		        		    <div class="name">Баланс:</div>
+		        			<div class="name-2">00.00</div>
+		        		</div>
+		        		<div class="item">
+		        			<div class="wrap">
+		        				<div class="item">
+		        					<span><img src="img/no.png" alt=""> неподтверждено</span>
+		        				</div>
+		        				<div class="item">
+		        					<a href="">подтвердить</a>
+		        				</div>
+		        			</div>
+
+		        			<div class="wrap">
+		        				<div class="item">
+		        					<span><img src="img/no.png" alt=""> неподтверждено</span>
+		        				</div>
+		        				<div class="item">
+		        					<a href="">подтвердить</a>
+		        				</div>
+		        			</div>
+
+		        			<div class="wrap">
+		        				<div class="item">
+		        					
+		        				</div>
+		        				<div class="item">
+		        					<div class="good"><img src="img/ok.png" alt=""> подтверждено</div>
+		        				</div>
+		        			</div>
+
+		        			<div class="wrap">
+		        				<div class="item">
+		        					<span><img src="img/no.png" alt=""> неподтверждено</span>
+		        				</div>
+		        				<div class="item">
+		        					<a href="">подтвердить</a>
+		        				</div>
+		        			</div>
+		        		</div>
+		        </div>
+		        </div>
+		        <div class="tab_item">
+		        	<h3>Лимиты</h3>
+		        	<div class="perevod">Лимиты на переводы с карт и расчетных 
+		        	счетов и пополнение баланса</div>
+
+		        	<div class="limit">
+		        		<h4>Лимит на перевод средств</h4>
+		        		
+		        		<form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">
+							<input name="flevel" id="flying" type="range" 
+							min="20" max="10000" value="20" step="10">
+							
+							<div class="wraper-progress">
+			        			<div class="item">
+			        				
+			        				<div class="summ"><output for="flying" name="level">20 </output> RUB</div>
+			        				<div class="itog">Израсходовано</div>
+			        			</div>
+			        			<div class="item">
+		        				
+		        				<div class="summ">94,050.68</div>
+		        				<div class="itog">Осталось до 31 Марта 2022</div>
+
+		        				<a href="" class="up_limit"><img src="img/up_limit.png" alt=""> повысить лимит </a>
+		        			    </div>
+		        		</div>
+						</form>
+		        	
+		        	</div>
+
+
+
+		        	<div class="limit">
+		        		<h4>Лимит на поплнение баланса</h4>
+		        		
+		        		<form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">
+							<input name="flevel" id="flying" type="range" 
+							min="20" max="10000" value="20" step="10">
+							
+							<div class="wraper-progress">
+			        			<div class="item">
+			        				
+			        				<div class="summ"><output for="flying" name="level">20 </output> RUB</div>
+			        				<div class="itog">Израсходовано</div>
+			        			</div>
+			        			<div class="item">
+		        				
+		        				<div class="summ">94,050.68</div>
+		        				<div class="itog">Осталось до 31 Марта 2022</div>
+
+		        				<a href="" class="up_limit"><img src="img/up_limit.png" alt=""> повысить лимит </a>
+		        			    </div>
+		        		</div>
+						</form>
+		        	
+		        	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		        	<h3>Увеличение лимитов</h3>
+		        	<div class="perevod">Вы можете увеличить установленные лимиты до
+		        	 необходимых вам значений</div>
+
+		        	 <h3>Увеличение лимита баланса</h3>
+		        	 <ul class="up_limit">
+		        	 	<li><input type="radio">Повысить ежемесячный лимит до 200,000 RUB, купить страхование рисков за £39.00 на месяц</li>
+		        	 	<li><input type="radio">Повысить ежемесячный лимит до 500,000 RUB, купить страхование рисков за £79.00 на месяц</li>
+		        	 	<li><input type="radio">Повысить ежемесячный лимит до 1,000,000 RUB, купить страхование рисков за £149.00 на месяц, плюс пройти верификацию личности (£29.00)*</li>
+		        	 	<li><input type="radio">Снять ежемесячный лимит</li>
+		        	 </ul>
+		        	 <div class="wrap_limit">
+		        	 	 <a href="" class="up_limit_button">УВЕЛИЧИТЬ ЛИМИТ</a>
+			        	 <span class="etention">* Стоимость услуги идентификации личности
+			        	 взимается только один раз при первом заказе</span>
+		        	 </div>
+
+
+
+		        	 <h3>Оплата дополнительных услуг</h3>
+		        	<table style="width:100%">
+					  <tr>
+					    <th>№</th>
+					    <th>Описание услуги</th>
+					    <th>Ед.</th>
+					     <th>Цена</th>
+					      <th>Кол-во</th>
+					       <th>ВСЕГО</th>
+					  </tr>
+					  <tr>
+					    <td>1</td>
+					    <td>Страхование рисков - повышение ежемесячного лимита на списание денежных средств до 200,000 РУБ</td>
+					    <td>мес</td>
+					    <td>£39.00</td>
+					    <td>1</td>
+					    <td>£39.00</td>
+					  </tr>
+					  <tr>
+					    <td>2</td>
+					    <td>Страхование рисков - повышение ежемесячного лимита на пополнение баланса до 200,000 РУБ</td>
+					    <td>мес</td>
+					    <td>£39.00</td>
+					    <td>1</td>
+					    <td>£39.00</td>
+					  </tr>
+					</table>
+
+					<div class="wraper_pay">
+						<div class="item">
+							<div class="in_pay">К ОПЛАТЕ в рублях:</div>
+							<div class="pay">10,812.00 RUB</div>
+						</div>
+						<div class="item">
+							<div class="in_pay">ВСЕГО стоимость услуг</div>
+							<div class="pay">£68</div>
+						</div>
+					</div>
+
+					<div class="wraper_pay">
+						<div class="item">
+							<div class="kurs">Курс обмена</div>
+							<div class="rezult_kurs">1 EUR = 114.858682 РУБ</div>
+						</div>
+					</div>
+
+
+					<a href="" class="next">далее</a>
+
+		        </div>
+		        <div class="tab_item">
+		        	<h3>Уведомления</h3>
+		        	<form action="">
+		        		<table style="width:60%" class="etention">
+						  <tr>
+						    <th></th>
+						    <th>Email</th>
+						    <th>СМС</th>
+						  </tr>
+						  <tr>
+						    <td>Пополнение баланса</td>
+						    <td><input type="checkbox"></td>
+						    <td><input type="checkbox"></td>
+						  </tr>
+						  <tr>
+						    <td>Списание с баланса</td>
+						    <td><input type="checkbox"></td>
+						    <td><input type="checkbox" checked></td>
+						  </tr>
+						  <tr>
+						    <td>Изменение статуса перевода</td>
+						    <td><input type="checkbox" checked></td>
+						    <td><input type="checkbox"></td>
+						  </tr>
+						  <tr>
+						    <td>Начало/ окончание действия услуги</td>
+						    <td><input type="checkbox" checked></td>
+						    <td><input type="checkbox"></td>
+						  </tr>
+						  <tr>
+						    <td>Системные сообщения</td>
+						    <td><input type="checkbox"></td>
+						    <td><input type="checkbox"></td>
+						  </tr>
+						  <tr>
+						    <td>Маркетинговые и рекламные сообщения</td>
+						    <td><input type="checkbox"></td>
+						    <td><input type="checkbox"></td>
+						  </tr>
+						</table>
+						<button href="" class="save">сохранить изменения</button>
+		        	</form>
+		        	
+		        </div>
+		        <div class="tab_item">
+		        	<h3>Бонусы</h3>
+		        	<div class="wraper-bonus">
+		        		<img src="img/bonus.png" alt="">
+		        		<div class="bonus">
+		        			Бонусный счёт
+		        			<span>00.00 RUB</span>
+		        		</div>
+
+
+		        	</div>
+
+		        	<div class="frends">
+		        			Приглашай друзей в 
+		        			<span class="wi">Wize</span><span class="sa">Safe,</span> 
+		        		используя свой код 02hyoy или реферальную ссылку ниже
+		        	</div>
+
+		        	<div class="referens">
+		        		<h4>Ваша реферальная ссылка:</h4>
+		        		<div class="link">wizesafe.com/referral/02hyoy <img src="img/copy.svg" alt=""></div>
+		        	</div>
+
+
+		        	<div class="card">
+		        		Вы можете перевести боносы на свою банковскую карту БЕЗ <br>
+		        		КОМИССИИ в любой валюте. 
+		        		<a href="">Ознакомьтесь с условиями бонусной программы <img src="img/uslovie.svg" alt=""></a>
+		        	</div>
+
+
+		        	<div class="take_bonus">
+		        		<h4>ПОЛУЧАТЬ БОНУСЫ ОЧЕНЬ ПРОСТО:</h4>
+		        		<div class="num">1.</div>
+		        		<p>Поделитесь вашим пригласительным кодом или рефферальной 
+		        		ссылкой с как можно большим количеством ваших друзей</p>
+
+		        		<div class="num">2.</div>
+		        		<p>Как только ваш друг использует пригласительный код или перейдет по рефферальной ссылке он получит скидку 70% на первый перевод </p>
+
+		        		<div class="num">3.</div>
+		        		<p>Как только ваш друг сделает свой первый квалифицированный перевод 
+		        		(не менее £200) вы получите £10 в виде бонуса, далее за каждый 
+		        	последующий перевод вы будете получать каждый раз по £5 </p>
+
+
+		        	<div class="go_frends">
+		        		Приглашайте друзей столько, сколько захотите, и зарабатывайте бонусы!
+		        	</div>
+
+
+		        	<h4 style="margin-top: 139px;">КАК ТРАТИТЬ БОНУСЫ</h4>
+		        	<div class="go_frends">
+		        		Бонусы можно перевести без комиссии на банковскую карту в фунтах, евро,
+		        		 долларах или другой валюте. Минимальная сумма перевода, которую можно вывести на карту,
+		        		  составляет 99 RUB.
+		        	</div>
+
+		        	<div class="go_frends">
+		        		Нажмите кнопку “Отправить”-> введите реквизиты своей банковской карты или счета для зачисления 
+		        		бонусов ->укажите сумму бонусов для списания -> выберите WIZESAFE BONUS как способ оплаты
+		        	</div>
+
+		        	</div>
+
+
+
+
+		        </div>
+		        <div class="tab_item">
+		        	<h3>Настройки</h3>
+
+		        	<div class="security">
+		        		Безопасность
+		        	</div>
+
+		        	<div class="avtorization">
+		        		<div class="text">Использовать двух факторную авторизацию?</div>
+		        		<input type="checkbox" id="demo2">
+		        		<label for="demo2" data-on-label=""></label>
+		        	</div>
+
+		        	<div class="security">
+		        		Выбор языка
+		        	</div>
+
+		        	<div class="langvich">
+		        		<select name="" id="">
+		        			 <option value="volvo">Русский</option>
+							  <option value="saab">Английский</option>
+							  <option value="fiat">Украинский</option>
+							 
+		        		</select>
+		        	</div>
+
+
+		        </div>
+
+		         <div class="tab_item">
+		         	<h3>Документы</h3>
+		         	<ul class="docs">
+		         		<li><a href="">Условия пользования сервисом</a></li>
+		         		<li><a href="">Политика конфиденциальности</a></li>
+		         		<li><a href="">Политика Cookie</a></li>
+		         		<li><a href="">Условия бонусной программы</a></li>
+		         		<li><a href="">Политика противодействия отмыванию денежных средств</a></li>
+		         	</ul>
+		         </div>
+		    </div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+	$(".wrapper .tab ").click(function() {
+	$(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+	$(".tab_item").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
+</script>
+</body>
+</html>

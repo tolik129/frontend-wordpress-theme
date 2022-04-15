@@ -1,0 +1,128 @@
+.bek-histori{
+	position: absolute;
+	top:176px;
+	left: 30%;
+}
+.container-trans{
+	max-width: 635px;
+	margin: 0 auto;
+}
+.suma_perevoda{
+	 margin-top: 300px;
+	 text-align: center;
+	h2{
+		text-align: center;
+		color: #000000;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 40px;
+		line-height: 49px;
+		margin-bottom: 62px;
+		span{
+			color: #42C364;
+		}
+	}
+	.wraper_suma{
+		display: flex;
+		justify-content: space-between;
+		.item{
+			text-align: center;
+			h4{
+				color: #9EA9AB;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 20px;
+				margin-bottom: 25px;
+			}
+			.sum_1{
+               color: #19A8E5;
+               font-weight: 500;
+               font-size: 20px;
+               margin-bottom: 25px;
+			}
+			.sum_2{
+               color: #00D200;
+               font-weight: 500;
+               font-size: 20px;
+               margin-bottom: 25px;
+			}
+			.rub{
+				color: #000000;
+				font-weight: 500;
+                font-size: 20px;
+			}
+			select{
+				border: 1px solid #E0E0E0;
+				box-sizing: border-box;
+				border-radius: 4px;
+			}
+		}
+	}
+	.perevod{
+		margin-top: 42px;
+		select{
+			width: 350px;
+			border: 1px solid #E0E0E0;
+			box-sizing: border-box;
+			border-radius: 4px;
+		}
+	}
+
+	.dop_uslugu{
+		border-top: 1px solid #E1E1E1;
+		border-bottom: 1px solid #E1E1E1;
+		padding-top: 53px;
+		padding-bottom: 53px;
+		margin-top: 218px;
+		text-align: left;
+		h3{
+			color: #000000;
+			font-weight: 500;
+			font-size: 32px;
+			text-align: center;
+			margin-bottom: 48px;
+		}
+		input{
+			width: 16px;
+		}
+		label{
+			color: #474948;
+			font-weight: 500;
+			font-size: 16px;
+			margin-bottom: 48px;
+			display: inline-block;
+		}
+	}
+
+	.kyrs{
+		margin-top: 55px;
+		display: flex;
+	    justify-content: space-between;
+	    padding-bottom: 55px;
+	    border-bottom: 1px solid #E1E1E1;
+	    margin-bottom: 105px;
+		.item{
+			h4{
+				color: #9EA9AB;
+				font-weight: 500;
+				font-size: 20px;
+				margin-bottom: 31px;
+			}
+			.itog{
+				color: #9EA9AB;
+				font-weight: 500;
+				font-size: 15px;
+			}
+		}
+	}
+
+	.perevod-2{
+		background: #0077FF;
+		border-radius: 10px;
+		padding: 10px 24px;
+		color: #FFFFFF;
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+}
